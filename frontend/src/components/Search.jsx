@@ -50,16 +50,17 @@ function Search() {
               </button>
               <ul className="mt-4">
               {hasSearched &&
-    (searchResults && Array.isArray(searchResults) && searchResults.length > 0 ? (
-      searchResults.map((quote) => (
-        <li key={quote._id}>
-          <p className="text-xl">{quote.q}</p>
-          <p className="mt-2 text-lg">- {quote.a}</p>
-        </li>
-      ))
-    ) : (
-      <p>No quotes found for the specified author.</p>
-    ))}
+              (searchResults && Array.isArray(searchResults) && searchResults.length > 0 ? (
+                searchResults.map((quote) => (
+                <li key={quote._id}>
+                  <p className="text-xl">{quote.q}</p>
+                  <p className="mt-2 text-lg">- {quote.a}</p>
+                </li>
+                ))
+              ) : (
+              <p>No quotes found for the specified author.</p>
+              ))
+              }
 
               </ul>
             </div>
