@@ -1,6 +1,6 @@
 # INFOTRIXS
 Techstack used-
-React
-Express
-MongoDB
+1React
+1Express
+1MongoDB
  
