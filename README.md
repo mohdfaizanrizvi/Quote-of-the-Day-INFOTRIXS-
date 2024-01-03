@@ -1,6 +1,6 @@
 # INFOTRIXS
-Techstack used-
-1React
-1Express
-1MongoDB
+## Techstack used-
+1. React
+2. Express
+3. MongoDB
  
